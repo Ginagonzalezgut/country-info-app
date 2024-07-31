@@ -1,4 +1,5 @@
 import Country from "./Country";
+import "../scss/components/Countries.scss";
 
 function ListCountries({ countriesData }) {
   function renderCountries() {
@@ -7,7 +8,7 @@ function ListCountries({ countriesData }) {
     });
   }
 
-  return <div>{renderCountries()}</div>;
+  return <div className="countries">{renderCountries()}</div>;
 }
 
 export default ListCountries;

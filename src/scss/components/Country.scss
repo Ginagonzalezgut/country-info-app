@@ -1,0 +1,15 @@
+.country {
+  border: 1px solid grey;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: 20px;
+
+  &__capital {
+    font-size: 12px;
+  }
+  &__continent {
+    font-size: 12px;
+  }
+}
